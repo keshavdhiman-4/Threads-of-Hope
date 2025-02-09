@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="donate-container">
+        <h2>Donate Now</h2>
+        <form action="/donate" method="POST" class="donate-form">
+            <label for="clothType">Type of Cloth:</label>
+            <select name="clothType" id="clothType" required>
+                <option value="Men">Men</option>
+                <option value="Women">Women</option>
+                <option value="Kids">Kids</option>
+                <option value="Others">Others</option>
+            </select>
+
+            <label for="numberOfClothes">Number of Clothes:</label>
+            <input type="number" name="numberOfClothes" id="numberOfClothes" min="1" required>
+
+            <label for="pickUpAddress">Pick-Up Address:</label>
+            <textarea name="pickUpAddress" id="pickUpAddress" rows="4" required></textarea>
+
+            <div class="payment-info">
+                <p>Delivery Fee: ₹50</p>
+            </div>
+            <br>
+
+            <button type="submit" class="btn-submit">Donate Now</button>
+        </form>
+    </div>
+</body>
+</html>
