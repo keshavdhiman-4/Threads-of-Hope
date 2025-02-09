@@ -10,13 +10,11 @@ Threads of Hope is a web-based platform dedicated to facilitating cloth donation
 - **Rewards System:** Earn one reward for every two donations.
 - **Real-Time Dashboard:** Track your donations and rewards.
 - **Payment Gateway Integration:** Pay a nominal delivery fee of ₹50 for pick-up services.
-- **Mobile-Friendly Design:** Accessible on all devices for ease of use.
 
 ## Technologies Used
 
 ### Frontend:
 - **HTML5, CSS3, JavaScript**
-- **React.js** for interactive and responsive design
 - **Bootstrap** for responsive layouts
 
 ### Backend:
@@ -24,12 +22,6 @@ Threads of Hope is a web-based platform dedicated to facilitating cloth donation
 
 ### Database:
 - **MongoDB** for secure and scalable data storage
-
-### Payment Integration:
-- Payment Gateway APIs to handle secure transactions
-
-### Design:
-- **Material UI** for consistent and appealing UI/UX
 
 ## How It Works
 
@@ -78,10 +70,6 @@ We welcome contributions to make Threads of Hope even better! To contribute:
    git push origin feature-name
    ```
 5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
